@@ -19,10 +19,6 @@
 
 Frontend ini menyediakan antarmuka modern untuk autentikasi berbasis Web3 menggunakan Metamask, memberikan pengalaman login yang mulus dan terpercaya tanpa kata sandi.
 
-<div align="center">
-<img src="https://i.imgur.com/4XbJ9ZL.png" alt="Frontend Screenshot" width="600px"/>
-</div>
-
 ## 🛠️ Teknologi
 
 - **[Svelte](https://svelte.dev/)** ⚡ Framework UI reaktif yang cepat dan efisien
@@ -92,10 +88,6 @@ src/
 3. **Izinkan permintaan koneksi** di popup Metamask
 4. **Tanda tangani pesan** yang muncul di Metamask
 5. **Nikmati akses** - Anda akan melihat profil dengan alamat wallet Anda
-
-<div align="center">
-<img src="https://i.imgur.com/k4zMVrQ.gif" alt="Login Flow Animation" width="500px"/>
-</div>
 
 ## 🔧 Deployment
 
