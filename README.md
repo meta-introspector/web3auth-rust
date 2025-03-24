@@ -145,10 +145,6 @@ Frontend akan berjalan di `http://localhost:5173` 🎉
 
 ## 🔒 Alur Autentikasi
 
-<div align="center">
-<img src="https://i.imgur.com/1HdqRvo.png" alt="Auth Flow Sequence" width="700px"/>
-</div>
-
 1. **📝 Request Nonce**: Frontend meminta nonce dari backend
 2. **👛 Tanda Tangan**: User menandatangani pesan (termasuk nonce) dengan Metamask
 3. **✅ Verifikasi**: Backend memverifikasi tanda tangan dan identitas pengguna
