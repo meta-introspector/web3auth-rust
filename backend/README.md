@@ -19,10 +19,6 @@
 
 Backend ini menangani autentikasi berbasis Web3 menggunakan tanda tangan dompet Ethereum, memberikan solusi autentikasi yang aman dan tanpa kata sandi.
 
-<div align="center">
-<img src="https://i.imgur.com/dDkxVrm.png" alt="Backend Flow Diagram" width="600px"/>
-</div>
-
 ## 🛠️ Teknologi
 
 - **[Rust](https://www.rust-lang.org/)** ⚡ Bahasa pemrograman yang cepat dan andal
