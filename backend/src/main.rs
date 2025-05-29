@@ -45,9 +45,10 @@ async fn main() {
     ];
 
     let app = Router::new()
+        .route("/", get(|| async { "Hello, World!" }))
         .route("/api/auth/nonce", post(get_nonce))
         .route("/api/auth/verify", post(verify_auth))
-        .route("/api/profile", get(get_profile))
+        //.route("/api/profile", get(get_profile))
         .route(
             "/api/profile",
             get(get_profile)
@@ -63,7 +64,7 @@ async fn main() {
         );
 
     let addr = SocketAddr::from(([0, 0, 0, 0], CONFIG.port));
-    tracing::info!("Server berjalan di http://{}", addr);
+    tracing::info!("Server listening http://{}", addr);
 
     let listener = tokio::net::TcpListener::bind(&addr).await.unwrap();
     axum::serve(listener, app).await.unwrap();
